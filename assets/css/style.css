@@ -25,11 +25,13 @@ ul, li{
 }
 h3{
     font-size: 2.5rem;
-    font-weight: lighter;
+    font-weight: bolder;
     /* color: #473829; */
 }
 a{
     text-decoration: none;
+    color: #888888;
+    font-weight: 2rem;
 }
 .p{
     padding: 6% 20% 0 17%;
@@ -74,6 +76,8 @@ div.container{
 }
 .nav-item{
     font-size: 0.9rem;
+    font-weight: bold;
+    transition: all .4s;
 }
 .img-frame{
     width: 390px;
@@ -101,14 +105,18 @@ div.container{
 .buttons{
     width: 20%;
     height: 30px;
-    border: 1px solid #ff7f00;
+    border: 1px solid transparent;
     padding: 10px 0 0 0;
     text-align: center;
     border-radius: 0 0 20px 0;
+    background-color: #bbbbbb;
+    text-decoration: none;
+    color: #645761;
 
     transform: translateY(-3px);
     box-shadow: 0 4px 17px #fedcdc;
 }
-.buttons a{
+
+/* .buttons a{
     border: 0px;
-}
+} */

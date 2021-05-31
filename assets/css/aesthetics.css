@@ -1,7 +1,7 @@
 .buttons:hover,
 .buttons:active {
-    /* background-color: rgba(206, 160, 100, 0.925); */
-    color: rgb(255, 255, 255);
+    background-color: rgba(206, 160, 100, 0.925);
+    color: rgb(220, 228, 217);
 }
 .media {
     min-width: 30px;
@@ -27,7 +27,13 @@ i:hover {
     transform: translateY(-3px);
     box-shadow: 0 4px 17px rgba(207, 221, 8, 0.35);
 }
-#portfolio img{}
+.nav-item:hover{
+    font-weight: bolder;
+    font-size: larger;
+    /* transform: scale(1.01); */
+    cursor: pointer;
+    color: #ff7f00;
+}
 
 .skills{
     font-size: 2.2rem;
@@ -71,14 +77,4 @@ i:hover {
     height: 40px;
     color: blue;
 }
-
-.saturate { filter: saturate(3); }
-.grayscale { filter: grayscale(100%); }
-.contrast { filter: contrast(160%); }
-.brightness { filter: brightness(0.25); }
-.blur { filter: blur(3px); }
-.invert { filter: invert(100%); }
-.sepia { filter: sepia(100%); }
-.huerotate { filter: hue-rotate(180deg); }
-.rss.opacity { filter: opacity(50%); }
 
